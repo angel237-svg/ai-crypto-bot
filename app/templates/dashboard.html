@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Crypto Bot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+    <h1>AI Crypto Trading Bot</h1>
+
+    <div class="card">
+        <h2>BTC/USDT Price</h2>
+        <p class="price">{{ price }} $</p>
+    </div>
+
+    <div class="card">
+        <h2>AI Signal</h2>
+        <p class="signal">{{ signal }}</p>
+    </div>
+</div>
+
+</body>
+</html>
